@@ -1,0 +1,68 @@
+
+------------------------------------------------------------
+Sender: LSF System <perf@s01r2b33>
+Subject: Job 1306610: <SA-MIRI-log.file.generator> in cluster <mn3> Exited
+
+Job <SA-MIRI-log.file.generator> was submitted from host <login3> by user <sam14021> in cluster <mn3>.
+Job was executed on host(s) <16*s01r2b33>, in queue <sequential>, as user <sam14021> in cluster <mn3>.
+</home/sam14/sam14021> was used as the home directory.
+</home/sam14/sam14021/handson4> was used as the working directory.
+Started at Fri Oct 23 15:03:59 2015
+Results reported on Fri Oct 23 15:04:37 2015
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+#BSUB -J "SA-MIRI-log.file.generator"
+#BSUB -n 16
+#BSUB -o %J.out
+#BSUB -e %J.err
+#BSUB -W 00:15
+
+LOG=profile.log
+cont=0
+
+# Launch vmstat for infinity into logfile
+( while [ $cont -eq 0 ]; do top -n 1 -b -u $USER -H >> $LOG; vmstat >>
+$LOG ; do
+ne ) &
+
+sleep 1
+
+echo "#####################################" >> $LOG
+echo "##### Starting execution ####" >> $LOG
+echo "#####################################" >> $LOG
+
+mpirun -np 16 ./trapezoidal_mpi < input.txt >timing.out
+
+echo "#####################################" >> $LOG
+echo "#### Stopping execution #####" >> $LOG
+echo "#####################################" >> $LOG
+
+sleep 1
+
+------------------------------------------------------------
+
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time :               0.60 sec.
+    Max Memory :             53 MB
+    Average Memory :         21.00 MB
+    Total Requested Memory : 28992.00 MB
+    Delta Memory :           28939.00 MB
+    (Delta: the difference between Total Requested Memory and Max Memory.)
+    Max Processes :          4
+    Max Threads :            4
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <1306610.err> for stderr output of this job.
+

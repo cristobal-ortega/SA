@@ -1,0 +1,17 @@
+
+ Performance counter stats for 'test':
+
+          1.142856 task-clock                #    0.068 CPUs utilized          
+                19 context-switches          #    0.017 M/sec                  
+                 3 CPU-migrations            #    0.003 M/sec                  
+               185 page-faults               #    0.162 M/sec                  
+         3,013,150 cycles                    #    2.637 GHz                    
+         1,978,598 stalled-cycles-frontend   #   65.67% frontend cycles idle   
+         1,573,063 stalled-cycles-backend    #   52.21% backend  cycles idle   
+         2,142,409 instructions              #    0.71  insns per cycle        
+                                             #    0.92  stalled cycles per insn
+           442,400 branches                  #  387.100 M/sec                  
+            14,466 branch-misses             #    3.27% of all branches        
+
+       0.016817071 seconds time elapsed
+

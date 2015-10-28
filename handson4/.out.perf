@@ -1,0 +1,23 @@
+
+ usage: perf stat [<options>] [<command>]
+
+    -e, --event <event>   event selector. use 'perf list' to list available events
+        --filter <filter>
+                          event filter
+    -i, --no-inherit      child tasks do not inherit counters
+    -p, --pid <n>         stat events on existing process id
+    -t, --tid <n>         stat events on existing thread id
+    -a, --all-cpus        system-wide collection from all CPUs
+    -c, --scale           scale/normalize counters
+    -v, --verbose         be more verbose (show counter open errors, etc)
+    -r, --repeat <n>      repeat command and print average + stddev (max: 100)
+    -n, --null            null run - dont start any counters
+    -d, --detailed        detailed run - start a lot of events
+    -S, --sync            call sync() before starting a run
+    -B, --big-num         print large numbers with thousands' separators
+    -C, --cpu <cpu>       list of cpus to monitor in system-wide
+    -A, --no-aggr         disable CPU count aggregation
+    -x, --field-separator <separator>
+                          print counts with custom separator
+    -G, --cgroup <name>   monitor event in cgroup name only
+

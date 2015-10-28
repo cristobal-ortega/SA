@@ -1,0 +1,102 @@
+8192
+Computation 62.30 mSec 
+Parallel 308.38 mSec 
+8192
+Computation 62.09 mSec 
+Parallel 304.40 mSec 
+8192
+top - 16:20:48 up 28 days,  2:55,  0 users,  load average: 0.24, 0.49, 0.84
+Tasks: 231 total,   3 running, 226 sleeping,   0 stopped,   2 zombie
+Cpu(s): 33.2%us,  0.8%sy,  0.0%ni, 66.1%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:    129172M total,     5740M used,   123431M free,        0M buffers
+Swap:    11442M total,        0M used,    11442M free,     2327M cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S   %CPU %MEM    TIME+  COMMAND          
+14084 sam14021  20   0  185m  34m 2940 S     34  0.0   0:00.17 mpirun           
+14087 sam14021  20   0 98.2m 4392 2760 D      6  0.0   0:00.03 mvmmpi           
+14088 sam14021  20   0 99540 4384 2752 D      6  0.0   0:00.03 mvmmpi           
+14093 sam14021  20   0 98.2m 4400 2760 D      6  0.0   0:00.03 mvmmpi           
+14095 sam14021  20   0 99540 4392 2752 D      6  0.0   0:00.03 mvmmpi           
+14089 sam14021  20   0 99540 4392 2752 R      4  0.0   0:00.02 mvmmpi           
+14090 sam14021  20   0 98424 4396 2752 D      4  0.0   0:00.02 mvmmpi           
+14097 sam14021  20   0 98.2m 4392 2760 D      4  0.0   0:00.02 mvmmpi           
+14099 sam14021  20   0 98.2m 4396 2756 D      4  0.0   0:00.02 mvmmpi           
+14101 sam14021  20   0 98.2m 4396 2760 D      4  0.0   0:00.02 mvmmpi           
+14103 sam14021  20   0 98.2m 4396 2760 D      4  0.0   0:00.02 mvmmpi           
+14105 sam14021  20   0 98.2m 4396 2752 D      4  0.0   0:00.02 mvmmpi           
+14107 sam14021  20   0 98.2m 4400 2760 D      4  0.0   0:00.02 mvmmpi           
+14109 sam14021  20   0 98.2m 4396 2752 D      4  0.0   0:00.02 mvmmpi           
+14111 sam14021  20   0 98.2m 4388 2752 R      4  0.0   0:00.02 mvmmpi           
+14112 sam14021  20   0 98.2m 4400 2760 D      4  0.0   0:00.02 mvmmpi           
+14115 sam14021  20   0 98420 4404 2764 D      4  0.0   0:00.02 mvmmpi           
+10806 sam14021  20   0 48772  32m 1376 S      0  0.0   0:00.06 res              
+14078 sam14021  20   0 12768 1600 1280 S      0  0.0   0:00.00 1445872773.1313  
+14082 sam14021  20   0 13024 1604 1288 S      0  0.0   0:00.00 sh               
+14083 sam14021  20   0 12768 1448 1152 S      0  0.0   0:00.00 top.sh           
+14085 sam14021  20   0 10816 1244  848 R      0  0.0   0:00.00 top              
+
+top - 16:20:51 up 28 days,  2:55,  0 users,  load average: 0.24, 0.49, 0.84
+Tasks: 231 total,  17 running, 212 sleeping,   0 stopped,   2 zombie
+Cpu(s): 33.2%us,  0.8%sy,  0.0%ni, 66.1%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:    129172M total,     7137M used,   122035M free,        0M buffers
+Swap:    11442M total,        0M used,    11442M free,     2477M cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S   %CPU %MEM    TIME+  COMMAND          
+14087 sam14021  20   0 4097m 391m  39m R     99  0.3   0:01.36 mvmmpi           
+14112 sam14021  20   0 3484m  48m  39m R     99  0.0   0:01.30 mvmmpi           
+14088 sam14021  20   0 3483m  48m  39m R     97  0.0   0:01.30 mvmmpi           
+14090 sam14021  20   0 3494m  48m  39m R     97  0.0   0:01.27 mvmmpi           
+14093 sam14021  20   0 3504m  48m  39m R     97  0.0   0:01.31 mvmmpi           
+14095 sam14021  20   0 3513m  47m  39m R     97  0.0   0:01.30 mvmmpi           
+14097 sam14021  20   0 3494m  48m  39m R     97  0.0   0:01.31 mvmmpi           
+14099 sam14021  20   0 3484m  48m  39m R     97  0.0   0:01.30 mvmmpi           
+14101 sam14021  20   0 3484m  48m  39m R     97  0.0   0:01.25 mvmmpi           
+14103 sam14021  20   0 3494m  47m  39m R     97  0.0   0:01.29 mvmmpi           
+14105 sam14021  20   0 3494m  48m  39m R     97  0.0   0:01.29 mvmmpi           
+14107 sam14021  20   0 3494m  47m  39m R     97  0.0   0:01.29 mvmmpi           
+14109 sam14021  20   0 3494m  48m  39m R     97  0.0   0:01.30 mvmmpi           
+14111 sam14021  20   0 3494m  48m  39m R     97  0.0   0:01.30 mvmmpi           
+14115 sam14021  20   0 3484m  48m  39m R     97  0.0   0:01.29 mvmmpi           
+14089 sam14021  20   0 3483m  48m  39m R     95  0.0   0:01.32 mvmmpi           
+10806 sam14021  20   0 48772  32m 1376 S      0  0.0   0:00.08 res              
+14078 sam14021  20   0 12768 1600 1280 S      0  0.0   0:00.00 1445872773.1313  
+14082 sam14021  20   0 13024 1604 1288 S      0  0.0   0:00.00 sh               
+14083 sam14021  20   0 12768 1596 1276 S      0  0.0   0:00.00 top.sh           
+14084 sam14021  20   0  185m  34m 2940 S      0  0.0   0:00.17 mpirun           
+14136 sam14021  20   0 10816 1264  848 R      0  0.0   0:00.00 top              
+
+Computation 62.06 mSec 
+Parallel 304.68 mSec 
+top - 16:20:53 up 28 days,  2:55,  0 users,  load average: 1.51, 0.74, 0.92
+Tasks: 212 total,   1 running, 209 sleeping,   0 stopped,   2 zombie
+Cpu(s): 33.2%us,  0.8%sy,  0.0%ni, 66.1%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:    129172M total,     5668M used,   123504M free,        0M buffers
+Swap:    11442M total,        0M used,    11442M free,     2344M cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S   %CPU %MEM    TIME+  COMMAND          
+14083 sam14021  20   0 12768 1596 1276 S      0  0.0   0:00.00 top.sh           
+14142 sam14021  20   0 10816 1240  848 R      0  0.0   0:00.00 top              
+
+top - 16:20:56 up 28 days,  2:56,  0 users,  load average: 1.51, 0.74, 0.92
+Tasks: 212 total,   1 running, 209 sleeping,   0 stopped,   2 zombie
+Cpu(s): 33.2%us,  0.8%sy,  0.0%ni, 66.1%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:    129172M total,     5666M used,   123506M free,        0M buffers
+Swap:    11442M total,        0M used,    11442M free,     2344M cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S   %CPU %MEM    TIME+  COMMAND          
+14083 sam14021  20   0 12768 1596 1276 S      0  0.0   0:00.00 top.sh           
+14145 sam14021  20   0 10816 1236  848 R      0  0.0   0:00.00 top              
+
+top - 16:20:58 up 28 days,  2:56,  0 users,  load average: 1.39, 0.73, 0.91
+Tasks: 212 total,   1 running, 209 sleeping,   0 stopped,   2 zombie
+Cpu(s): 33.2%us,  0.8%sy,  0.0%ni, 66.1%id,  0.0%wa,  0.0%hi,  0.0%si,  0.0%st
+Mem:    129172M total,     5665M used,   123507M free,        0M buffers
+Swap:    11442M total,        0M used,    11442M free,     2344M cached
+
+  PID USER      PR  NI  VIRT  RES  SHR S   %CPU %MEM    TIME+  COMMAND          
+14083 sam14021  20   0 12768 1596 1276 S      0  0.0   0:00.00 top.sh           
+14147 sam14021  20   0 10816 1236  848 R      0  0.0   0:00.00 top              
+
+8192
+Computation 62.01 mSec 
+Parallel 305.14 mSec 

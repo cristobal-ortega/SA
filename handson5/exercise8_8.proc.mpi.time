@@ -1,0 +1,15 @@
+8192
+Computation 4646.12 mSec 
+Parallel 4876.82 mSec 
+8192
+--------------------------------------------------------------------------
+There are not enough slots available in the system to satisfy the 16 slots 
+that were requested by the application:
+  ./mvmmpi
+
+Either request fewer slots for your application, or make more slots available
+for use.
+--------------------------------------------------------------------------
+8192
+Computation 34.93 mSec 
+Parallel 312.51 mSec 

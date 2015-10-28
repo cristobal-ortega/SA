@@ -1,0 +1,36 @@
+1024
+Computation 0.98 mSec 
+Parallel 30.79 mSec 
+2048
+Computation 5.31 mSec 
+Parallel 44.48 mSec 
+4096
+Computation 73.22 mSec 
+Parallel 165.03 mSec 
+8192
+Computation 301.93 mSec 
+Parallel 621.04 mSec 
+16384
+Computation 1215.50 mSec 
+Parallel 2318.49 mSec 
+32768
+Computation 4383.59 mSec 
+Parallel 9402.51 mSec 
+1024
+Computation 0.11 mSec 
+Parallel 37.72 mSec 
+2048
+Computation 0.58 mSec 
+Parallel 46.54 mSec 
+4096
+Computation 7.44 mSec 
+Parallel 117.80 mSec 
+8192
+Computation 30.54 mSec 
+Parallel 325.47 mSec 
+16384
+Computation 124.42 mSec 
+Parallel 1214.05 mSec 
+32768
+Computation 477.52 mSec 
+Parallel 4746.14 mSec 

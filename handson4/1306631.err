@@ -1,0 +1,17 @@
+
+ Performance counter stats for 'mpirun -np 16 ./trapezoidal_mpi':
+
+       6592.045538 task-clock                #    1.677 CPUs utilized          
+           237,283 context-switches          #    0.036 M/sec                  
+            15,103 CPU-migrations            #    0.002 M/sec                  
+            79,117 page-faults               #    0.012 M/sec                  
+    16,980,989,506 cycles                    #    2.576 GHz                    
+     7,631,294,148 stalled-cycles-frontend   #   44.94% frontend cycles idle   
+     5,389,961,898 stalled-cycles-backend    #   31.74% backend  cycles idle   
+    21,643,635,755 instructions              #    1.27  insns per cycle        
+                                             #    0.35  stalled cycles per insn
+     5,664,297,381 branches                  #  859.262 M/sec                  
+        13,582,144 branch-misses             #    0.24% of all branches        
+
+       3.930764307 seconds time elapsed
+

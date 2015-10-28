@@ -1,0 +1,2 @@
+/home/sam14/sam14021/.lsbatch/1445605430.1306610.shell: line 12: syntax error near unexpected token `newline'
+/home/sam14/sam14021/.lsbatch/1445605430.1306610.shell: line 12: `( while [ $cont -eq 0 ]; do top -n 1 -b -u $USER -H >> $LOG; vmstat >>'
